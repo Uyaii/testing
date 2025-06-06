@@ -100,6 +100,10 @@ you can do this in the cli by doing
 ```bash
 git merge <branch-name>
 ```
+# now if you switch back to the main branch youll see your changes vanished and that because the pull and merge request happened on the remote repo not your local one, so you need to pull the changes from the remote repo into your local one 
+
+
+# Reserving Merge Conflicts
 
 ```bash```
 ```bash```
