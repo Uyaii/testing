@@ -80,9 +80,27 @@ when you create a new branch it will be based on the branch you're currently on,
 git branch <new-branch> <source-branch>
 ```
 ## im adding this for js_feature branch
-```bash```
-```bash```
-```bash```
+
+# now you add and commit your changes, but to push the code to the new branch remote you need to do 
+
+an upstream branch is a remote branch that your local branch tracks, so in future you can just use git push
+```bash
+git push --set-upstream origin <new-branch-name eg js_feature> or
+git push -u orgin <new-branch-name eg js_feature>
+```
+
+# if someone made changes to your remote branch, you need to update your local branch and you can just use 
+```bash
+git pull
+```
+
+# now to merge your changes back into the main branch,you have to create a pull request and merge it on github, then you can delete the branch if you dont need it again
+
+you can do this in the cli by doing
+```bash
+git merge <branch-name>
+```
+
 ```bash```
 ```bash```
 ```bash```
