@@ -16,7 +16,7 @@ git config --global init.defaultBranch main
 ```bash
 git status 
 ```
-# to track files you use
+# to track files you made changes to
 
 ```bash
 git add <filename> or
@@ -32,8 +32,16 @@ git add . (for all untracked files)
 git commit -m 'initial commit'
 ```
 
-```bash```
-```bash```
+# to see the history of all commits created
+```bash
+git log
+```
+
+# how to restore your project to a previous project
+```bash
+git checkout <commit-hash gotten from git log command>
+```
+
 ```bash```
 ```bash```
 ```bash```
